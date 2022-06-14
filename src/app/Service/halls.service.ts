@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core';
 export class HallsService {
 
   constructor(public http:HttpClient) { }
-  baseUrl="http://mohamedadel2020-001-site1.itempurl.com/api/Halls"
+  baseUrl="https://ourcinema.somee.com/api/Halls"
 
 
   GetHalls( ) {
@@ -16,7 +16,7 @@ export class HallsService {
 
 
   GetHallsFromIdMovie(id:number ) {
-    return this.http.get<any>("http://mohamedadel2020-001-site1.itempurl.com/api/Movies/GetHallIdFromMovies/" +id);
+    return this.http.get<any>("https://ourcinema.somee.com/api/Movies/GetHallIdFromMovies/" +id);
   }
   GetHallsForMovies( ) {
     return this.http.get<any[]>( this.baseUrl+"/GetAllWhereNotInMovie" );

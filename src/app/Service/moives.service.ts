@@ -7,7 +7,7 @@ import { MovieModel } from '../model/Movie';
 })
 export class MoivesService {
   constructor(public http: HttpClient) {}
-  baseUrl = 'http://mohamedadel2020-001-site1.itempurl.com/api/Movies';
+  baseUrl = 'https://ourcinema.somee.com/api/Movies';
 
   GetAllMovies() {
     return this.http.get<MovieModel[]>(this.baseUrl);

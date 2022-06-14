@@ -54,7 +54,7 @@ export class HomeComponent implements OnInit {
   this.mService.GetTop3Moive().subscribe( e =>(
     console.log(e ,"eeeeeeeeeeeeee") ,
     this.data = e,
-    this.data.photoData = `http://mohamedadel2020-001-site1.itempurl.com/` + this.data.photoData
+    this.data.photoData = `https://ourcinema.somee.com/` + this.data.photoData
     , console.log(this.data))
     ,
     er=>console.log(er))
