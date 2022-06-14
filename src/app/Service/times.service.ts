@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core';
 export class TimesService {
 
   constructor(public http:HttpClient) { }
-  baseUrl="https://localhost:44385/api/Times"
+  baseUrl="http://mohamedadel2020-001-site1.itempurl.com/api/Times"
 
 
   GetAllTimes( ) {
