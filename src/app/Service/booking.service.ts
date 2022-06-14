@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core';
 export class BookingService {
 
   constructor(public http:HttpClient) { }
-  baseUrl="https://localhost:44385/api/Booking"
+  baseUrl="http://mohamedadel2020-001-site1.itempurl.com/api/Booking"
 
 
 

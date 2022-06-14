@@ -10,7 +10,7 @@ import { User } from '../model/User';
 })
 export class UserService {
   logins:any;
-  baseUrl="https://localhost:44385/api/User/"
+  baseUrl="http://mohamedadel2020-001-site1.itempurl.com/api/User/"
 
   constructor(public http:HttpClient ,private fb: FormBuilder) { }
 
